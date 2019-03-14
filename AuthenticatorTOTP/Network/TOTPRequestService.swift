@@ -12,9 +12,9 @@ import KeychainSwift
 typealias DataDictionary = [String: Any]
 
 public enum API {
-    static let sid = "IS9b35cc03e3cca9a4d5cdf2435ddda7ff"
-    static let accountSid = "AC2e512e4f285d39d6ca2b5886d702e18e"
-    static let authToken = "67a8f83dd8b5ef68932dfe6b96d787ca"
+    static let sid = ""
+    static let accountSid = ""
+    static let authToken = ""
     static let username = "Hawer"
 }
 
