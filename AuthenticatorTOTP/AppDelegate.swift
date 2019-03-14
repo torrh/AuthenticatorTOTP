@@ -26,8 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func saveToken(authKey: String, accountKey: String, keychainSwift: KeychainSwift) {
-        keychainSwift.set("67a8f83dd8b5ef68932dfe6b96d787ca", forKey: authKey)
-        keychainSwift.set("AC2e512e4f285d39d6ca2b5886d702e18e", forKey: accountKey)
+        keychainSwift.set("", forKey: authKey)
+        keychainSwift.set("", forKey: accountKey)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
